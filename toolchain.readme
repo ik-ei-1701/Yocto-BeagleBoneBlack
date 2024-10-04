@@ -1,0 +1,10 @@
+//toolchain can be downloadeed here:
+
+https://developer.arm.com/downloads/-/gnu-a/9-2-2019-12
+
+
+//Linux users:
+
+AArch32 target with hard float (arm-none-linux-gnueabihf)
+
+    gcc-arm-9.2-2019.12-x86_64-arm-none-linux-gnueabihf.tar.xz

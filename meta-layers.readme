@@ -1,0 +1,22 @@
+//Beagle-bone black layer setup / branches and hash :)
+
+git clone -b dunfell https://github.com/yoctoproject/poky.git [32da5ee951 (HEAD -> dunfell, origin/dunfell) build-appliance-image: Update to dunfell head revision]
+
+/*---------------------------------------------------------*/
+
+custom-metas/
+
+git clone -b dunfell https://git.yoctoproject.org/meta-arago [86d19ced (HEAD -> dunfell, tag: cicd.dunfell.202304260757, tag: cicd.dunfell.202304172200, tag: cicd.dunfell.202304171346, tag: cicd.dunfell.202304140842, tag: cicd.dunfell.202304132200, tag: cicd.dunfell.202304122200, origin/dunfell-wip, origin/dunfell-next, origin/dunfell) meta-arago-distro: linux-firmware: remove cadence firmware]
+
+git clone -b dunfell https://git.yoctoproject.org/meta-arm/ [c4f04f3f (HEAD, tag: yocto-3.1.1, tag: 3.1.1) arm/trusted-firmware-a: add branch name for mbedtls]
+
+git clone -b dunfell https://github.com/openembedded/meta-openembedded.git [b8b0b0682 (HEAD -> dunfell, origin/dunfell-next, origin/dunfell) sysdig: Depend on system libb64]
+
+git clone -b dunfell https://github.com/meta-qt5/meta-qt5.git [5ef3a0f (HEAD -> dunfell, origin/jansa/dunfell, origin/dunfell-next, origin/dunfell) qtdeclarative: Fix build with gcc-11]
+
+git clone https://git.ti.com/cgit/arago-project/meta-ti [07209f73 (HEAD, tag: 07.01.00.006) ti-rtos: update metadata and firmware to 07.01.00.38]
+
+git clone git://git.openembedded.org/openembedded-core [ff0f134daa (HEAD) linux-yocto/5.4: update to v5.4.248]
+
+git clone https://github.com/hamzamac/meta-splash.git [eb71de6 (HEAD -> master, tag: 0.0.4, origin/master, origin/HEAD) Merge pull request #3 from manesec/patch-1]
+

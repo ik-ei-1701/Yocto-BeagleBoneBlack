@@ -1,0 +1,65 @@
+BUILD SUMMARY:
+
+Build Configuration:
+BB_VERSION = "1.46.0"
+BUILD_SYS = "x86_64-linux"
+NATIVELSBSTRING = "ubuntu-22.04"
+TARGET_SYS = "arm-linux-gnueabi"
+MACHINE = "beaglebone"
+DISTRO = "arago"
+DISTRO_VERSION = "2021.09"
+TUNE_FEATURES = "arm armv7a vfp thumb neon callconvention-hard"
+TARGET_FPU = "hard"
+meta
+meta-poky
+meta-yocto-bsp = "dunfell:32da5ee9519119a16392acba29f9df4720a55c0f"
+meta-arm-toolchain = "HEAD:c4f04f3fb66f8f4365b08b553af8206372e90a63"
+meta-skeleton = "HEAD:ff0f134daad2e1cae942355c9a8eb177be607d13"
+meta-arm = "HEAD:c4f04f3fb66f8f4365b08b553af8206372e90a63"
+meta-ti = "HEAD:07209f738f14c98e84874573c98a948ba894ecf3"
+meta-oe
+meta-filesystems
+meta-python
+meta-networking
+meta-multimedia = "dunfell:b8b0b06821d4d4df0cce4f07fa31a8ca1dd38f46"
+meta-qt5 = "dunfell:5ef3a0ffd3324937252790266e2b2e64d33ef34f"
+meta-arago-extras
+meta-arago-distro = "dunfell:86d19ced20934c8383c8a39f88d97c72e7e929ee"
+meta-splash = "master:eb71de60bebce19154cabab1b279058ef5d3c65f"
+meta-egl-imgui = "master:918f15634ee040d5da22259f86a9eef94b1deb26"
+
+Initialising tasks: 100% |#######################################| Time: 0:00:06 
+
+
+//GENTOO---------------------------------//
+
+Build Configuration:
+BB_VERSION           = "1.46.0"
+BUILD_SYS            = "x86_64-linux"
+NATIVELSBSTRING      = "gentoo-2.15"
+TARGET_SYS           = "arm-linux-gnueabi"
+MACHINE              = "beaglebone"
+DISTRO               = "arago"
+DISTRO_VERSION       = "2021.09"
+TUNE_FEATURES        = "arm armv7a vfp thumb neon callconvention-hard"
+TARGET_FPU           = "hard"
+meta
+meta-poky
+meta-yocto-bsp       = "dunfell:63d05fc061006bf1a88630d6d91cdc76ea33fbf2"
+meta-arm-toolchain   = "HEAD:c4f04f3fb66f8f4365b08b553af8206372e90a63"
+meta-skeleton        = "HEAD:ff0f134daad2e1cae942355c9a8eb177be607d13"
+meta-arm             = "HEAD:c4f04f3fb66f8f4365b08b553af8206372e90a63"
+meta-ti              = "HEAD:07209f738f14c98e84874573c98a948ba894ecf3"
+meta-oe
+meta-filesystems
+meta-python
+meta-networking
+meta-multimedia      = "HEAD:b8b0b06821d4d4df0cce4f07fa31a8ca1dd38f46"
+meta-qt5             = "HEAD:5ef3a0ffd3324937252790266e2b2e64d33ef34f"
+meta-arago-extras
+meta-arago-distro    = "HEAD:86d19ced20934c8383c8a39f88d97c72e7e929ee"
+meta-splash          = "HEAD:eb71de60bebce19154cabab1b279058ef5d3c65f"
+
+Initialising tasks: 100% |######################################################################################| Time: 0:00:15
+Sstate summary: Wanted 2652 Found 0 Missed 2652 Current 112 (0% match, 4% complete)
+NOTE: Executing Tasks
